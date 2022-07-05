@@ -15,9 +15,7 @@ bool checkLuhn(const string& cardNo)
     if (isSecond == true)
       d = d * 2;
 
-    // We add two digits to handle
-    // cases that make two digits after
-    // doubling
+    
     nSum += d / 10;
     nSum += d % 10;
 
@@ -26,7 +24,7 @@ bool checkLuhn(const string& cardNo)
   return (nSum % 10 == 0);
 }
 
-// Driver code
+
 int main()
 {
   string cardNo;
