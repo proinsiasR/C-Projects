@@ -24,7 +24,7 @@ int checkDigit(const string& cardNo)
   return lastDigit;
 }
 
-// Driver code
+// Take input and run it through checkDigit
 int main()
 {
   string cardNo;
